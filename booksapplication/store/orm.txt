@@ -1,0 +1,10 @@
+from store.models import Books
+
+Books.objects.create(name="Ramdamoozham",author="M.T Vasudevan Nair",price=450,publisher="Current Books")
+Books.objects.create(name="Neermatalam Poothakaalam",author="Madhavikutty",price=500,publisher="DC Books")
+Books.objects.create(name="Khasakkinte Itihasam",author=".O.V Vijayan",price=400,publisher="DC Books")
+Books.objects.create(name="Mathilukal",author="Vaikom Muhammad Basheer",price=350,publisher="DC Books")
+Books.objects.create(name="Aarachar",author="K.R Meera",price=400,publisher="DC Books")
+Books.objects.create(name="Chemeen",author="Thakazhi Sivasankara Pillai",price=350,publisher="DC Books")
+Books.objects.create(name="Nashtapetta Neelambari",author="Madhavikutty",price=350,publisher="Kalakshetram")
+Books.objects.create(name="Naalukettu",author="M.T Vasudevan Nair",price=400,publisher="Current Books")
